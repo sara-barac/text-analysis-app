@@ -1,2 +1,0 @@
-[console_scripts]
-textan = text_analysis_app.cli:app
