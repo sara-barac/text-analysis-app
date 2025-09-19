@@ -1,0 +1,25 @@
+# Python source files — always use LF internally
+*.py text eol=lf
+
+# Jupyter notebooks — treat as text (Git handles diffs reasonably)
+*.ipynb text
+
+# Markdown, YAML, and text files — text, convert line endings automatically
+*.md text
+*.yaml text
+*.yml text
+*.txt text
+
+# Excel files — binary, don’t change line endings
+*.xlsx binary
+
+# Ignore CRLF warnings for egg-info metadata (binary enough)
+*.egg-info/* text
+
+# Any other binary files (images, etc.) — never touch line endings
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+
