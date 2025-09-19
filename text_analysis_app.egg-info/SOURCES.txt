@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+text_analysis_app/__init__.py
+text_analysis_app/cli.py
+text_analysis_app/processing.py
+text_analysis_app.egg-info/PKG-INFO
+text_analysis_app.egg-info/SOURCES.txt
+text_analysis_app.egg-info/dependency_links.txt
+text_analysis_app.egg-info/entry_points.txt
+text_analysis_app.egg-info/requires.txt
+text_analysis_app.egg-info/top_level.txt

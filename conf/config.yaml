@@ -1,0 +1,4 @@
+input_dir: data/raw
+output_dir: data/processed
+spacy_model_small: en_core_web_sm
+spacy_model_medium: en_core_web_md
