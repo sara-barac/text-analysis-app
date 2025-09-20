@@ -14,8 +14,9 @@ Računarstvo u društvenim naukama na Univerzitetu u Beogradu.
 - ✅ Named Entity Recognition (NER)  
 - ✅ Text similarity matrix between topics
 
-*relevantni deo izgleda .xlsx fajlova u kome je sadržan tekst
-![.xlsx fajl](C:\Users\PC\OneDrive\Desktop\materijali za README\izgled_xslx_fajla) 
+relevantni deo izgleda .xlsx fajlova u kome je sadržan tekst
+![Izgled .xlsx fajla](images/izgled_xslx_fajla.png)
+
 ---
 
 ## ⚡ Quick Start
