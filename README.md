@@ -15,7 +15,8 @@ Računarstvo u društvenim naukama na Univerzitetu u Beogradu.
 - ✅ Text similarity matrix between topics
 
 relevantni deo izgleda .xlsx fajlova u kome je sadržan tekst
-![Izgled .xlsx fajla](images/izgled_xslx_fajla.png)
+<img src="images/izgled_xslx_fajla.png" alt="Izgled .xlsx fajla" width="250" height="150"/>
+
 
 ---
 
