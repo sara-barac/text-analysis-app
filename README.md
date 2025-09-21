@@ -29,26 +29,28 @@ Rezultat analize su tri fajla koja sadrže:
 git clone https://github.com/sara-barac/text-analysis-app.git
 cd text-analysis-app
 ``` 
-# Kreiranje virtuelnog okrženja
+Kreiranje virtuelnog okrženja
 ```bash
 python -m venv .venv
 ```
 
-# Aktivacija okruženja
+Aktivacija okruženja
 
-OS / Shell  Komanda za aktivaciju
-Windows Bash (VS Code, Git Bash, etc.)	```bash source .venv/Scripts/activate ```
-Windows PowerShell	```bash .venv\Scripts\Activate.ps1 ```
-Windows CMD	```bash .venv\Scripts\activate.bat ```
-Linux / macOS Bash ```bash	source .venv/bin/activate ```
+| OS / Shell                       | Komanda za aktivaciju                |
+|----------------------------------|---------------------------------------|
+| Windows Bash (VS Code, Git Bash) | ```bash source .venv/Scripts/activate``` |
+| Windows PowerShell               | ```bash .venv\Scripts\Activate.ps1```    |
+| Windows CMD                      | ```bash .venv\Scripts\activate.bat```    |
+| Linux / macOS Bash               | ```bash source .venv/bin/activate```     |
 
 
-# Instalacija svih komponenti aplikacije
+
+Instalacija svih komponenti aplikacije
 ```bash
 pip install -e .
 ```
 
-# Pokretanje aplikacije 
+Pokretanje aplikacije 
 ```bash
 textan 
 ```
