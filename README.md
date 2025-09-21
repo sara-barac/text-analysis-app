@@ -63,9 +63,4 @@ textan
 relevantni deo izgleda .xlsx fajlova u kome je sadržan tekst
 <img src="images/izgled_xslx_fajla.png" alt="Izgled .xlsx fajla" width="250" height="150"/>
 
-Izgled (preview) output fajlova:
-<img src="images/json_basic_analysis.png" alt="Izgled .xlsx fajla" width="250" height="150"/>
-<img src=<img src="images/entity_izgled.png" alt="Izgled .xlsx fajla" width="250" height="150"/>
-<img src="images/izgled_eksela.png" alt="Izgled .xlsx fajla" width="250" height="150"/>
-
 
