@@ -9,6 +9,7 @@ Računarstvo u društvenim naukama na Univerzitetu u Beogradu.
 3) vrši analizu tih tekstova (na engleskom jeziku) korištenjem **SpaCy** biblioteke 
 
 Rezultat analize su tri fajla koja sadrže: 
+
 📌 .json: 
 - ✅ broj tokena u svakom tekstu po temi
 - ✅ listu tokena u okviru svake teme
@@ -19,6 +20,8 @@ Rezultat analize su tri fajla koja sadrže:
 
 📌 .xlsx:
 - ✅ Matricu vektorske sličnosti tekstova sa izdvojenim parovima tekstova sa graničnim vrednostima (najvećom i najmanjom) 
+
+*Preview izgled output fajlova se može naći u folderu ** images** . 
 
 ---
 
@@ -54,6 +57,13 @@ Pokretanje aplikacije
 ```bash
 textan 
 ```
+
+
+
+
+
+
+
 
 
 
