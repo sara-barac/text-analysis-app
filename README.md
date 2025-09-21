@@ -4,39 +4,56 @@ Ovaj projekat je deo ispitnog zadatka na predmetu Programiranje za lingviste na 
 Računarstvo u društvenim naukama na Univerzitetu u Beogradu. 
 
 📊 Text Analysis App: CLI aplikacija koja iz .xlsx fajlova određene* strukture: 
-1) ekstrahuje tekstove
+1) ekstrahuje tekstove 
 2) dodeljuje im odgovarajuće naslove
-3) vrši analizu tih tekstova korištenjem **SpaCy** biblioteke 
+3) vrši analizu tih tekstova (na engleskom jeziku) korištenjem **SpaCy** biblioteke 
 
+Rezultat analize su tri fajla koja sadrže: 
+📌 .json: 
+- ✅ broj tokena u svakom tekstu po temi
+- ✅ listu tokena u okviru svake teme
+- ✅ TTR za svaki tekst
 
-- ✅ Token and POS analysis per topic  
-- ✅ Type-Token Ratio (TTR)  
-- ✅ Named Entity Recognition (NER)  
-- ✅ Text similarity matrix between topics
+📌 .json:
+- ✅  liste imenovanih entita razvrstane po njihovim tipovima za svaki tekst
 
-relevantni deo izgleda .xlsx fajlova u kome je sadržan tekst
-<img src="images/izgled_xslx_fajla.png" alt="Izgled .xlsx fajla" width="250" height="150"/>
-
+📌 .xlsx:
+- ✅ Matricu vektorske sličnosti tekstova sa izdvojenim parovima tekstova sa graničnim vrednostima (najvećom i najmanjom) 
 
 ---
 
-## ⚡ Quick Start
+## ⚡ Instalacija i pokretanje aplikacije
 
 ```bash
-# Clone the repository  
-git clone https://github.com/YOUR-USERNAME/text-analysis-app.git
+# Kloniranje repozitorijuma  
+git clone https://github.com/sara-barac/text-analysis-app.git
 cd text-analysis-app
-
-# Create and activate a virtual environment
+``` 
+# Kreiranje virtuelnog okrženja
+```bash
 python -m venv .venv
-# Windows PowerShell
-.venv\Scripts\activate
-# Linux/macOS
-source .venv/bin/activate
+```
 
-# Install dependencies
+# Aktivacija okruženja
+
+OS / Shell  Komanda za aktivaciju
+Windows Bash (VS Code, Git Bash, etc.)	```bash source .venv/Scripts/activate ```
+Windows PowerShell	```bash .venv\Scripts\Activate.ps1 ```
+Windows CMD	```bash .venv\Scripts\activate.bat ```
+Linux / macOS Bash ```bash	source .venv/bin/activate ```
+
+
+# Instalacija svih komponenti aplikacije
+```bash
 pip install -e .
+```
 
-# Run the CLI
+# Pokretanje aplikacije 
+```bash
 textan 
+```
+
+
+relevantni deo izgleda .xlsx fajlova u kome je sadržan tekst
+<img src="images/izgled_xslx_fajla.png" alt="Izgled .xlsx fajla" width="250" height="150"/>
 
